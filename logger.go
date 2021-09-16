@@ -1,3 +1,10 @@
+package mallory
+
+import (
+	"log"
+	"os"
+)
+
 type ILoger interface {
 	Printf(format string, v ...interface{})
 	Print(v ...interface{})
