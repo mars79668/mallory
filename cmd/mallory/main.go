@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/net/publicsuffix"
 
-	. "github.com/justmao945/mallory"
+	. "github.com/mars79668/mallory"
 )
 
 var (
