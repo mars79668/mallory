@@ -9,6 +9,7 @@ type ILoger interface {
 	Printf(format string, v ...interface{})
 	Print(v ...interface{})
 	Println(v ...interface{})
+	Fatalln(v ...interface{})
 }
 
 // global logger
